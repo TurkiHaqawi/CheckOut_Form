@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Turki Haqawi">
+        <meta name="description" content="CheckOut Form">
+        <meta name="viewport" content="width=device-width , initial-scale= 1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        
+        <title>CheckOut Form Example 1 2 3 4 6</title>
+        <link rel="stylesheet" href="CheckOut_Form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    
+    
+    <body>
+        
+        <div id="content">
+            <div id="sectionOne">
+                <i class="fa fa-arrow-left back-icon" aria-hidden="true"></i>
+                <img src="http;//palcehold.it/300/300" alt="" id="randomImg">
+                <span class="timer">5:0</span>
+            </div>
+            <hr>
+            
+            <div id="sectionTwo">
+                <div class="billingAddress">
+                    <h2> Billing Address </h2>
+                    <form class="form">
+                        <i class="fa fa-user"></i> <label for="FullName"> Full Name </label>
+                        <input type="text" name="FullName" id="FullName" class="inputs" placeholder="Enter Your Full Name">
+                        
+                        <i class="fa fa-envelope"></i> <label for="Email"> Email</label>
+                        <input type="email" name="email" id="Email" class="inputs" placeholder="Enter Your Email">
+                        
+                        <i class="fa fa-address-card"></i> <label for="Address"> Address </label>
+                        <input type="text" name="address" id="Address" class="inputs" placeholder="Enter Your Address">
+                        
+                        <i class="fa fa-building"></i> <label for="City"> City </label>
+                        <input type="text" name="city" id="City" class="inputs" placeholder="Enter Your City">
+                        
+                        <label for="State"> State </label>
+                        <input type="text" name="state" id="State" class="inputs" placeholder="Enter Your State">
+                        
+                        <label for="Zip"> Zip </label>
+                        <input type="text" name="zip" id="Zip" class="inputs" placeholder="Enter Your Zip">
+                    </form>
+                </div>
+                <div class="payment">
+                    <h2> Payment </h2>
+                    <form class="form">
+                        <label> Accepted Cards </label><br>
+                        <div class="cards">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+                        
+                        <label for="NoC"> Name on Card </label>
+                        <input type="text" name="noc" id="NoC" class="inputs" placeholder="Enter Name on Card">
+                        
+                        <label for="CCN"> Credit card number </label>
+                        <input type="text" name="ccn" id="CCN" class="inputs" placeholder="Enter Credit card number">
+                        
+                        <label for="EM"> Exp Month </label>
+                        <input type="text" name="em" id="EM" class="inputs" placeholder="Enter Exp Month">
+                        
+                        <label for="EY"> Exp Year </label>
+                        <input type="text" name="ey" id="EY" class="inputs" placeholder="Enter Exp Year">
+                        
+                        <label for="CVV"> CVV </label>
+                        <input type="text" name="cvv" id="CVV" class="inputs" placeholder="Enter CVV">
+                    </form>
+                </div>
+            </div>
+            
+            <div id="sectionThree">
+                <div class="checkboxSection">
+                    <input type="checkbox" id="check">
+                    <label for="check">I Agree The on <a href="#">Pollicy</a></label>
+                </div>
+                
+                <div class="refreshSection">
+                    <button id="btn" onclick="GSN()"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+                    <div class="GSN"></div>
+                    <input type="text" id="GSN-Input" name="GSNInput">
+                </div>
+                
+                <div class="Submit">
+                    <button class="ContinueToPaying">Continue To CheckOut</button>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!--
+        <div id="container">
+            
+            <div id="sectionOne">
+            
+                <h2> Billing Address </h2>
+                <div class="formOne">
+                    <form class="form">
+                        <i class="fa fa-user"></i> <label for="FullName"> Full Name </label><br>
+                        <input type="text" name="FullName" id="FullName" class="inputs"><br>
+                        
+                        <i class="fa fa-envelope"></i> <label for="Email"> Email</label><br>
+                        <input type="email" name="email" id="Email" class="inputs"><br>
+                        
+                        <i class="fa fa-address-card"></i> <label for="Address"> Address </label><br>
+                        <input type="text" name="address" id="Address" class="inputs"><br>
+                        
+                        <i class="fa fa-building"></i> <label for="City"> City </label><br>
+                        <input type="text" name="city" id="City" class="inputs"><br>
+                        
+                        <div id="smallInputs">
+                            <label for="State">State</label><br>
+                            <input type="text" name="state" id="State" class="inputs smallInputs"><br>
+                        
+                            <label for="Zip">Zip</label><br>
+                            <input type="number" name="zip" id="Zip" class="inputs smallInputs">
+                        </div>
+                    </form>
+                </div>
+            
+            </div>
+            <div id="sectionTwo">
+                <h2> Payment </h2>
+                <div class="formTwo">
+                    <form class="form">
+                        <label for="img">
+                            <img src="" alt="">
+                        </label>
+                        
+                        <label for="NoC">Name on Card</label><br>
+                        <input type="text" name="noc" id="NoC" class="inputs"><br>
+                        
+                        <label for="CCN">Credit card number</label><br>
+                        <input type="text" name="ccn" id="CCN" class="inputs"><br>
+                        
+                        <label for="EM">Exp Month</label><br>
+                        <input type="text" name="em" id="EM" class="inputs"><br>
+                        
+                        <label for="EY">Exp Year</label><br>
+                        <input type="text" name="ey" id="EY" class="inputs smallInputs"><br>
+                        
+                        <label for="CVV">CVV</label><br>
+                        <input type="text" name="cvv" id="CVV" class="inputs smallInputs">
+                    </form>
+                </div>
+            </div>
+        </div>-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       <!-- <label class="checkBox">
+                            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                        </label>-->
+
+        <!--<div id="container">
+            
+            <div id="addrssSection">
+                <h2> Billing Address </h2>
+                <form>
+                    <i class="fas fa-user"></i> <label for="Fname">Full Name</label>
+                    <input type="text" value="Full Name" name="Full Name" id="Fname"><br>
+                    
+                    <i class="fas fa-envelope"></i> <label for="Full Name">Email</label>
+                    <input type="text" value="Full Name" name="Full Name"><br>
+                    
+                    <i class="far fa-address-card"></i> <label for="Full Name">Adderss</label>
+                    <input type="text" value="Full Name" name="Full Name"><br>
+                    
+                    <i class="fas fa-building"></i> <label for="Full Name">City</label>
+                    <input type="text" value="Full Name" name="Full Name">
+                </form>
+            </div>
+            
+            
+            <div id="paySection"></div>
+        </div>-->
+        
+        
+        <script src="CheckOut_Form.js"></script>
+    </body>
+</html>

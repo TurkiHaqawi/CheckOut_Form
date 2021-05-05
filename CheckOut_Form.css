@@ -1,0 +1,207 @@
+/* Start Main Style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+#content {
+    width: 60%;
+    margin: 50px auto;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+/* End Main Style */
+
+/**************************************************************************************/
+
+/* Start SectionOne Style */
+
+#sectionOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.back-icon {
+    background-color: #cdcdcd;
+    padding: 10px;
+    border-radius: 10px;
+    width: 7%;
+}
+
+#randomImg {
+    border-radius: 50%;
+    width: 10%;
+    cursor: pointer;
+}
+
+.timer {
+    background-color: #cdcdcd;
+    padding: 10px;
+    border-radius: 10px;
+    width: 10%;
+    font-weight: bolder;
+}
+
+/* End SectionOne Style */
+
+/**************************************************************************************/
+
+/* Start SectionTwo */
+
+/* billingAddress) Style */
+#sectionTwo {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.billingAddress {
+    width: 50%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 2px solid #cdcdcd;
+}
+
+.payment {
+    width: 50%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border: 2px solid #cdcdcd;
+}
+
+.form {
+    padding: 0px 15px 10px 15px;
+}
+
+.inputs {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* (Payment) Style */
+.payment {
+    width: 50%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border: 2px solid #cdcdcd;
+}
+
+.cards {
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px 5px 5px 0px; 
+    margin-bottom: 10px;
+}
+
+/* End SectionTwo Style */
+
+/**************************************************************************************/
+
+/* Start SectionThree */
+
+/* checkboxSection */
+#sectionThree {
+    width: 100%;
+}
+
+.checkboxSection {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.checkboxSection #check {
+    font-size: 20px;
+}
+
+/* refreshSection */
+.refreshSection {
+    display: flex;
+}
+
+#btn {
+    width: 5%;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 20px;
+    background-color: #cdcdcd;
+    cursor: pointer;
+}
+
+.GSN {
+    background-color: darkgray;
+    padding: 15px;
+    width: 15%;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 1px;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+
+#GSN-Input {
+    margin-left: 15px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.Submit {
+    margin-top: 10px;
+}
+
+.ContinueToPaying {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: dimgrey;
+    font-size: 20px;
+    color: #FFF;
+    outline: none;
+}
+
+.ContinueToPaying:active {
+    background-color: darkgray;
+}
+/* End SectionThree */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
